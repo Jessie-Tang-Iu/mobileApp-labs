@@ -4,7 +4,7 @@ import { Pressable, StyleSheet, Text, View } from 'react-native';
 export default function App() {
     let sampleList = [
       {id: 1, name: "Lam", github_repo: "lam-dao1320", group_no: "5"},
-      {id: 2, name: "Pharadon", github_repo: "", group_no: "5"},
+      {id: 2, name: "Pharadon", github_repo: "pharadonsompol", group_no: "5"},
       {id: 3, name: "Jessie", github_repo: "Jessie-Tang-Iu", group_no: "5"},
     ]
   
