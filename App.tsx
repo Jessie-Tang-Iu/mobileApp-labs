@@ -3,10 +3,9 @@ import { Pressable, StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
     let sampleList = [
-      {id: 1, name: "John" },
-      {id: 2, name: "Jane" },
-      {id: 3, name: "Deo" },
-      {id: 4, name: "Smith" },
+      {id: 1, name: "Lam", github_repo: "lam-dao1320", group_no: "3"},
+      {id: 2, name: "Pharadon", github_repo: "", group_no: "3"},
+      {id: 3, name: "Jessie", github_repo: "Jessie-Tang-Iu", group_no: "3"},
     ]
   
   const eventHandler = () => {
@@ -18,7 +17,7 @@ export default function App() {
       <Text>Open up App.tsx to start working on your app!</Text>
       {sampleList.map((item) => (
         <Text key={item.id} style={{ fontSize: 20 }}>
-          {item.name}
+          {item.name} {item.github_repo} {item.group_no}
         </Text>
       ))}
       <Pressable onPress={eventHandler}>
